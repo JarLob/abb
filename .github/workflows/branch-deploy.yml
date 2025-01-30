@@ -33,7 +33,6 @@ jobs:
           trigger: ".deploy"
           environment: "production"
           sticky_locks: "true" # https://github.com/github/branch-deploy/blob/1f6516ef5092890ce75d9e97ca7cbdb628e38bdd/docs/hubot-style-deployment-locks.md
-          allow_forks: "false"
         
       # Check out the exact commit SHA from the output of the IssueOps command
       - uses: actions/checkout@v4
